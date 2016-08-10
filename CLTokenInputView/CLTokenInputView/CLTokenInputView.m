@@ -104,6 +104,9 @@ static CGFloat const FIELD_MARGIN_X = 4.0; // Note: Same as CLTokenView.PADDING_
     }
 }
 
+- (void)setTextColor:(UIColor *)color{
+    self.textField.textColor = color;
+}
 
 #pragma mark - Adding / Removing Tokens
 

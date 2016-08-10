@@ -105,6 +105,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeToken:(CLToken *)token;
 - (nullable CLToken *)tokenizeTextfieldText;
 
+- (void)setTextColor:(UIColor *)color;
+
 // Editing
 - (void)beginEditing;
 - (void)endEditing;
